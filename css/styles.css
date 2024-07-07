@@ -4,6 +4,12 @@ color: #434455;
 background-color: #FFFFFF;
 }
 
+img{
+display: block;
+max-width: 100%;
+height: auto;
+}
+
 ul {
 list-style-type: none;
 margin: 0;
@@ -14,7 +20,6 @@ a {
 text-decoration: none;
 color: currentColor;
 }
-
 
 p, 
 h1, 
@@ -33,14 +38,11 @@ padding-bottom: 120px;
 }
 
 .container {
-max-width: 1158px;
+width: 1158px;
 padding: 0 15px;
 margin: 0 auto;
 }
-
-img{
-display: block;
-}
+ 
 
 
 
@@ -99,7 +101,7 @@ color: #2e2f42;
 }
 
 .header-menu-link {
-color: #2e2f42
+color: #2e2f42;
 display: inline-block;
 padding-top: 24px;
 padding-bottom: 24px;
@@ -116,7 +118,6 @@ margin-left: auto;
 }
 
 .header-contacts-link{
-display: block;
 padding: 24px 0;
 font-size: 16px;
 line-height: 1.5;
@@ -135,9 +136,6 @@ color: #404BBF;
 .main-section-button {
 background-color: #2e2f42;
 padding: 188px 0;
-}
-
-.main-container{
 }
 
 .title-main{
@@ -175,7 +173,6 @@ padding: 16px 32px;
 .button-main:focus{
 background-color:#404BBF;
 }
-
 
 
 
@@ -257,7 +254,6 @@ gap: 24px;
 
 .main-items-cards{
 display: block;
-align-items: center;
 width: calc(( 100% - 72px ) / 4 );
 background-color: #FFFFFF;
 border-radius: 0 0 4px 4px;
@@ -265,7 +261,6 @@ border-radius: 0 0 4px 4px;
 
 .cards-text{
 padding: 32px 0;
-display: block;
 }
 
 .main-list-name{
@@ -296,10 +291,6 @@ padding-top: 120px;
 padding-bottom: 120px;
 }
 
-.portfolio-container{
-
-}
-
 .portfolio-list{
 display: flex;
 flex-wrap: wrap;
@@ -309,7 +300,6 @@ row-gap: 48px;
 
 .portfolio-cards{
 width: calc(( 100% - 48px ) / 3 );
-
 }
 
 .portfolio-text {
@@ -318,6 +308,7 @@ border-left: 1px solid #e7e9fc;
 border-right: 1px solid #e7e9fc;
 padding: 32px 16px;
 }
+
 .portfolio-list-name{
 display: block;
 font-weight: 500;
@@ -344,13 +335,13 @@ margin-bottom: 32px;
 .footer {
 background-color: #2e2f42;
 padding: 100px 0;
-
 }
 
 .footer-container{
-    padding: 100px 1020px 100px 156px;
-    max-width: 264px;
+ padding: 100px 1020px 100px 156px;
+max-width: 264px;
 }
+
 .footer-logo{
 display: inline-block;
 margin-bottom: 16px;
@@ -368,7 +359,7 @@ color: #f4f4fd;
 }
 
 .footer-subtitle  {
-    margin-top: 16px;
+margin-top: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
