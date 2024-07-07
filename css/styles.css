@@ -37,8 +37,9 @@ max-width: 1158px;
 padding: 0 15px;
 margin: 0 auto;
 }
-.img{
-    display: block;
+
+img{
+display: block;
 }
 
 
@@ -195,8 +196,8 @@ margin: -1px;
 border: 0;
 padding: 0;
 white-space: nowrap;
-clip-path: inset(100%);
-clip: rect(0 0 0 0);
+clip-path: inset( 100% );
+clip: rect( 0 0 0 0 );
 overflow: hidden;
 }
 
